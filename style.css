@@ -10,3 +10,29 @@ h1 {
 p {
     font-family:'Times New Roman', Times, serif;
 }
+
+.left {
+    float: left;
+    margin-right: 20px;
+}
+
+.right {
+    float: right;
+    margin-left: 20px;
+}
+
+.tile-image {
+    height: 200px;
+}
+
+.hobby {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+@media (max-width:600px) {
+    .tile-image {
+        width: 90%;
+        object-fit: cover;
+    }
+}
